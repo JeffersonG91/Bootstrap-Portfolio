@@ -1,34 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <title>Bootstrap Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
 </head>
+
+<style type="text/css">
+body{
+  background: url(http://katrinaelliott.com.au/wp-content/uploads/2014/03/parallaxfull2.jpg);
+  max-width: 100%;
+}
+header{background-color: #fff;}
+h1{color: #fff;}
+</style>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Jefferson</a>
-    <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="#">Portfolio</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
-    </div>
-  </nav>
+    <header>
+        <div class="conainer-fluid m-auto p-0">
+          <nav class="row navbar .navbar-expand-lg justify-content-between m-0 p-0">
+          <div class="navbar-brand col-md-6 col-sm-12" id="logo">Jefferson Gabuardi</div>
+          <div class="nav navbar-right nav-fill">
+            <a class="nav-item nav-link active" href="index.html">About</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+    </header>
+
   <div class="container">
     <div class="row">
       <div class="col-md-8">
         <div class="page-header">
           <h1>About Me</h1>
-        </div>
-      <div class="col-md-4">
 
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="file:///Users/jeffersong/Desktop/RCB/1.HTML-CSS-Homework/Basic-Portfolio/assets/images/me.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <section id="ConnectWithMe">
+          <div class="ConnectWithMe">
+                <h1 class="ConnectWithMe-header">Connect With Me</h1>
+                <hr />
+              <div id="images">
+                <img src="file:///Users/jeffersong/Desktop/RCB/1.HTML-CSS-Homework/Basic-Portfolio/assets/images/linkedinlogo.png" style="width: 5rem;">
+                <img src="file:///Users/jeffersong/Desktop/RCB/1.HTML-CSS-Homework/Basic-Portfolio/assets/images/GitHubMark.png" style="width: 5rem;">
+                <img src="file:///Users/jeffersong/Desktop/RCB/1.HTML-CSS-Homework/Basic-Portfolio/assets/images/overflow.png" style="width: 5rem;">
+              </div>
+          </div>
+        </section>       
       </div>
     </div>
   </div> 
-  <nav class="navbar fixed-bottom navbar-light bg-light">
-    <a class="navbar-brand" href="#">Fixed bottom</a>
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="footer"> &copy; Copyright 2017 Jefferson Gabuardi 
   </nav>
 </body>
 </html>
